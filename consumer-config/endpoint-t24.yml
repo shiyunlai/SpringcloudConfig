@@ -1,0 +1,11 @@
+################ 模拟T24的主机通道配置 #################
+endpoint:
+  t24:
+    name: t24通道
+    host:
+      ip: 127.123.123.123
+      port: 45678
+    channel:
+      name: TIS_CHANNEL_T24
+    send-queue: Q_TIS_SEND_TO_T24
+    receiver-queue: Q_TIS_RECEIVER_FROM_T24
