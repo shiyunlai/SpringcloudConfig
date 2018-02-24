@@ -31,9 +31,11 @@ spring:
 
 foo: keep foolish keep hungery
 tools:
-  name: 2018 tools gogogo
+  name: 2018 tools KEPPEL
   abf:
+    app-code: KEPPEL
     url: http://localhost:9300/abf
+    
 
 jdbc:
   mysql:
