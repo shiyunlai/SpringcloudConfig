@@ -23,6 +23,8 @@ spring:
     port: 5672
     username: springclouddemo
     password: springclouddemo
+    virtual-host: /
+    publisher-confirms: true
 
 ##################  以下是测试内容 ###################
 
