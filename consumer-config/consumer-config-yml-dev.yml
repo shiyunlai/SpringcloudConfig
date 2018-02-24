@@ -21,8 +21,8 @@ spring:
   rabbitmq:
     host: localhost
     port: 15672
-    #username:
-    #password:
+    username: springclouddemo
+    password: springclouddemo
 
 ##################  以下是测试内容 ###################
 
